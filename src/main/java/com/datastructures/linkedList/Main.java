@@ -8,12 +8,12 @@ public class Main {
         linkedList.append(1);
         linkedList.append(2);
         linkedList.append(3);
+        linkedList.append(4);
 
-        linkedList.printList();
 
-        linkedList.reverse();
+        LinkedList.Node fromK = linkedList.findKthFromEnd(2);
+        System.out.println(fromK.value);
 
-        linkedList.printList();
 
     }
 
